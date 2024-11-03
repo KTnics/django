@@ -1,2 +1,214 @@
-<h1>Excel Data</h1>
+
+
+<!DOCTYPE html><html lang="mr"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>महाराष्ट्र सर्वेक्षण</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+<script defer="" data-domain="opopop.tiiny.site" src="https://a.tiiny.host/js/plausible.js"></script><script type="text/javascript" src="https://tiiny.host/ad-script.js"></script></head>
+<body>
+    <div class="container">
+        <h1>महाराष्ट्र सर्वेक्षण: मतमतांतर सर्वेक्षण प्रश्नावली</h1>
+        <p>नमस्कार सर, कसे आहात? माझं बोलणं ccc ddd यांच्याशीच होत आहे ना?</p>
+        <p>सर, मी (abc xyz), नॅशनल रिसर्च प्रोग्राम, पुणे येथून बोलत आहे. आमची संस्था आगामी महाराष्ट्र विधानसभा निवडणुकीसंबंधी एक सर्वेक्षण करत आहे, ज्याचा उद्देश मतदारांच्या आवडी-निवडी आणि अपेक्षा समजून घेणे आहे.</p>
+        <p>सर, या सर्वेक्षणाचा एक स्वतंत्र अभ्यास असून याचा कोणत्याही राजकीय पक्षाशी किंवा सरकारशी संबंध नाही. आपली ओळख आणि आपल्याद्वारे दिलेली माहिती पूर्ण गोपनीय ठेवली जाईल. सर, कृपया या सर्वेक्षणासाठी दिलेल्या वेळेबद्दल कृतज्ञ आहोत.</p>
+
+        <form>
+            <label for="area">१. सर, आपण कोणत्या विधानसभा क्षेत्राचे रहिवासी आहात?</label>
+            <input type="text" id="area" name="area" required="">
+
+            <label for="mla">२. तुम्हाला आपल्या मतदारसंघातील आमदाराचे नाव माहीत आहे का?</label>
+            <select id="mla" name="mla">
+                <option value="नाही माहीत">नाही माहीत</option>
+                <option value="आहे पण आठवत नाही">माहीत आहे पण आठवत नाही</option>
+                <option value="बरोबर नाव">बरोबर नाव</option>
+            </select>
+
+            <label for="performance">३. गेल्या पाच वर्षांत तुमच्या मतदारसंघातील आमदाराने कसे काम केले आहे?</label>
+            <select id="performance" name="performance">
+                <option value="खूप चांगले">खूप चांगले</option>
+                <option value="चांगले">चांगले</option>
+                <option value="ठीक-ठाक">ठीक-ठाक</option>
+                <option value="वाईट">वाईट</option>
+                <option value="खूप वाईट">खूप वाईट</option>
+                <option value="माहिती नाही">आमदाराच्या कामाबद्दल माहिती नाही</option>
+            </select>
+
+            <label>४. सर, मला तुम्हाला काही व्यक्तींच्या नावांविषयी विचारायचं आहे. तुम्ही सांगू शकाल का? की तुम्हाला त्यांच्या नावांची माहिती आहे का किंवा त्यांच्या कामाबद्दल तुम्हाला परिचय आहे का?</label>
+            <table>
+                <tbody><tr>
+                    <th>उम्मेदवाराचे नाव</th>
+                    <th>खूप परिचित आहे</th>
+                    <th>थोडेफार परिचित आहे</th>
+                    <th>काहीच परिचय नाही</th>
+                </tr>
+                <tr>
+                    <td>उमेदवार A</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>उमेदवार B</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>उमेदवार C</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>उमेदवार D</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>उमेदवार E</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>उमेदवार F</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>उमेदवार G</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </tbody></table>
+
+            <label for="vote">५. या विधानसभा निवडणुकीत आपण यापैकी कोणत्या पक्ष आणि उमेदवाराला मतदान कराल?</label>
+            <input type="text" id="vote" name="vote" required="">
+
+            <label for="party">६. सर, तुम्ही  स्वतःला कोणत्या पार्टीच्या सगल्यात जवलचे मानता जरीही ती पार्टी कोणत्याही गठबंधनात असेल ?
+</label>
+            <input type="text" id="party" name="party" required="">
+
+            <label>७. मत देताना तुम्ही कोणत्या गोष्टीला सर्वात जास्त महत्व देता?</label>
+            <select>
+                <option value="आमदार उमेदवार">आमदार उमेदवार</option>
+                <option value="मुख्यमंत्री पदाचा चेहरा">मुख्यमंत्री पदाचा चेहरा</option>
+                <option value="पक्ष">पक्ष</option>
+            </select>
+
+            <label for="alliance">८. जर उद्या सकाळी महाराष्ट्र विधानसभा निवडणूक झाली, तर तुम्ही कोणत्या गठबंधनाला मत देणार?</label>
+            <select id="alliance" name="alliance">
+                <option value="Maha Vikas Aghadi">Maha Vikas Aghadi</option>
+                <option value="Maha Yuti">Maha Yuti</option>
+                <option value="VBA">VBA</option>
+                <option value="MNS">MNS</option>
+                <option value="PWPI">PWPI</option>
+            </select>
+
+            <label>९. या विधानसभेच्या निवडणुकीत मतदान करताना तुमच्यासाठी सर्वात महत्त्वाचा मुद्दा काय असेल?</label>
+            <textarea rows="4" style="width: 100%; padding: 10px;" placeholder="आपला मुद्दा येथे लिहा..."></textarea>
+
+            <label>लिंग:</label>
+            <select>
+                <option value="पुरुष">पुरुष</option>
+                <option value="महिला">महिला</option>
+                <option value="इतर">इतर</option>
+            </select>
+
+            <label for="age">वय:</label>
+            <input type="text" id="age" name="age" required="">
+
+            <label for="education">शिक्षणाचा स्तर:</label>
+            <input type="text" id="education" name="education" required="">
+
+            <label for="religion">तुमचा धर्म काय आहे?</label>
+            <input type="text" id="religion" name="religion" required="">
+
+            <label for="caste">तुमची जात काय आहे?</label>
+            <input type="text" id="caste" name="caste" required="">
+
+            <label for="occupation">व्यवसाय:</label>
+            <input type="text" id="occupation" name="occupation" required="">
+
+            <label for="income">तुमचे मासिक घरगुती उत्पन्न अंदाजे किती आहे?</label>
+            <select id="income" name="income">
+                <option value="2000 पर्यंत">2000 पर्यंत</option>
+                <option value="2000-5000">2000-5000</option>
+                <option value="5000-10000">5000-10000</option>
+                <option value="10000-20000">10000-20000</option>
+                <option value="20000-50000">20000-50000</option>
+                <option value="50000 पेक्षा जास्त">50000 पेक्षा जास्त</option>
+            </select>
+
+            <button type="submit">सामील व्हा</button>
+        </form>
+    </div>
+  <h1>Login hr </h1>
 <div>{{ data|safe }}</div>
+
+
+</body></html>
